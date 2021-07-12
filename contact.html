@@ -1,28 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title> Contact: My Personal site </title>
-  </head>
-  <body>
-    <nav>
+
+<head>
+  <meta name="description" content="Class site NYU">
+  <meta name="keywords" content="HTML, CSS, BOOTSTRAP">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <title>Contact: David's Personal site </title>
+</head>
+
+<body>
+  <meta charset="utf-8">
+  <header id="contactWelcome">
+    <h1>Feel free to contact me ヾ(≧▽≦*)o</h1>
+  </header>
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">
+          HOME
+        </a>
+      </li>
+      <li>
+        <a href="about.html">
+          ABOUT
+        </a>
+      </li>
+      <li>
+        <a href="contact.html">
+          CONTACT
+        </a>
+      </li>
       <ul>
-        <li>
-          <a href = "index.html">
-            HOME
-          </a>
-        </li>
-        <li>
-          <a href = "about.html">
-            ABOUT
-          </a>
-        </li>
-        <li>
-          <a href = "contact.html">
-            CONTACT
-          </a>
-        </li>
-      <ul>
-    </nav>
-    <h1> Coming Soon </h1>
-  </body>
+  </nav>
+  <section id='leftMain'>
+    <form name='sendmail' action='mailto:jiangzhen9@foxmail.com'>
+      <input name='subject' type='text' value='' placeholder="subject">
+      <input type="submit" id='submitBtn' value="Submit"/>
+      <input type="reset" id='resetBtn' value="Clear"/>
+      <br/>
+      <textarea cols="80" rows="30" id="body" name='body' placeholder="body"></textarea>
+    </form>
+
+  </section>
+  <h1> Coming Soon </h1>
+</body>
+
 </html>
