@@ -7,6 +7,28 @@
   <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="css/custom.css" type='text/css' />
   <title>About: David's personal site</title>
+  <style>
+    .block {
+      padding: 30px;
+    }
+
+    #resumeTop p a:link {
+      color: red;
+      text-decoration: none;
+    }
+
+    #resumeTop p a:active {
+      color: pink;
+      text-decoration: none;
+    }
+
+    #resumeTop p a:hover {
+      -webkit-box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
+      -moz-box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
+      box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
+      border-radius: 0px;
+    }
+  </style>
 </head>
 
 <body>
@@ -40,13 +62,12 @@
       </ul>
     </nav>
     <section id='aboutMain' class='block'>
-      <p>Here is a resume.</p>
+      <h1>Here is a resume.</h1>
       <hr />
-      <br />
       <br />
       <table id='resume' border="1" align='center'>
         <tr>
-          <td colspan='2' align='center'>
+          <td colspan='2' align='center' id='resumeTop'>
             <h3>Zhen (David) Jiang</h3>
             <p>
               Shanghai, China |
@@ -93,8 +114,9 @@
           </td>
         </tr>
       </table>
+      <br />
     </section>
-    <footer class='block'>
+    <footer class='block' style='padding-left:10px;padding-right:10px;padding-top:0px;padding-bottom:0px'>
       <section id='socialMedia'>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="https://space.bilibili.com/65963743/" target="_blank">
