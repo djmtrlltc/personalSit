@@ -5,12 +5,36 @@
   <meta name="description" content="Class site NYU">
   <meta name="keywords" content="HTML, CSS, BOOTSTRAP">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <style>
+    #home{
+      display : flex;
+      justify-content: center;
+      align-items : center;
+    }
+
+    #home a{
+      position:fixed;
+      border-radius: 5px;
+      padding:5px;
+      background-color: rgba(255, 255, 255, .2);
+      -webkit-box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
+      -moz-box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
+      box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
+      top:50%;
+      right:30px;
+    }
+  </style>
   <title>
     David's personal website
   </title>
 </head>
 
 <body>
+  <div id='home'>
+    <a href='../index.html'>
+      <img src='../images/home.svg' height='27px' width='30px'/>
+    </a>
+  </div>
   <div id="wrap">
     <header charset="utf-8" id="introWelcome">
       <h1>Hi! This is David's Personal Site ヾ(≧▽≦*)o</h1>
