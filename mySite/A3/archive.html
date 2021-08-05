@@ -8,9 +8,36 @@
   <link rel="stylesheet" href="css/custom.css" type='text/css' />
   <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   <title>Archive: David's Personal Site</title>
+  <style>
+    #home {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #home a {
+      position: fixed;
+      border-radius: 5px;
+      padding: 5px;
+      background-color: rgba(255, 255, 255, .2);
+      top: 50%;
+      right: 30px;
+    }
+
+    #home a:hover {
+      -webkit-box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
+      -moz-box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
+      box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
+    }
+  </style>
 </head>
 
 <body>
+  <div id='home'>
+    <a href='../index.html'>
+      <img src='images/home.svg' height='27px' width='30px' />
+    </a>
+  </div>
   <div id="wrap">
     <header charset="utf-8" id="introWelcome">
       <h1>Here are the archives ヾ(≧▽≦*)o</h1>
@@ -41,21 +68,18 @@
     </nav>
     <section id='archive' class='block' style='padding-left:30px;padding-right:30px;padding-top:10px;padding-bottom:10px'>
       <p>
-        All past assiments are listed here. If you want to go back to current web pages, please click the <b><u>'home'</u></b> botton.
+        All past assiments are listed here. If you want to go back to current web pages, please click the <b><u>'home'</u></b> botton at the bottom-right corner.
       </p>
       <hr />
       <ul>
-        <a href="A1/index.html">
+        <a href="../A1/index.html">
           <li>Assignment 1: setup</li>
         </a>
-        <a href="A2/index.html">
+        <a href="../A2/index.html">
           <li>Assignment 2: HTML</li>
         </a>
-        <a href="A3/index.html">
-          <li>Assignment 3: CSS</li>
-        </a>
         <b>
-          <li>Assignment 4: Photoshop (Current)</li>
+          <li>Assignment 3: CSS (Current)</li>
         </b>
       </ul>
     </section>

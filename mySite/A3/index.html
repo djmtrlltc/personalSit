@@ -2,12 +2,13 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
   <meta name="description" content="Class site NYU">
   <meta name="keywords" content="HTML, CSS, BOOTSTRAP">
-  <link rel="stylesheet" href="css/custom.css" type='text/css' />
   <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-  <title>Archive: David's Personal Site</title>
+  <link rel="stylesheet" href="css/custom.css" type='text/css' />
+  <title>
+    David's personal website
+  </title>
   <style>
     #home {
       display: flex;
@@ -35,12 +36,12 @@
 <body>
   <div id='home'>
     <a href='../index.html'>
-      <img src='../images/home.svg' height='27px' width='30px' />
+      <img src='images/home.svg' height='27px' width='30px' />
     </a>
   </div>
   <div id="wrap">
     <header charset="utf-8" id="introWelcome">
-      <h1>Here are the archives ヾ(≧▽≦*)o</h1>
+      <h1>Hi! Welcome to David's Personal Site ヾ(≧▽≦*)o</h1>
     </header>
     <nav>
       <ul>
@@ -66,23 +67,40 @@
         </a>
       </ul>
     </nav>
-    <section id='archive' class='block' style='padding-left:30px;padding-right:30px;padding-top:10px;padding-bottom:10px'>
-      <p>
-        All past assiments are listed here. If you want to go back to current web pages, please click the <b><u>'home'</u></b> botton at the bottom-right corner.
-      </p>
-      <hr />
-      <ul>
-        <a href="../A1/index.html">
-          <li>Assignment 1: setup</li>
-        </a>
-        <a href="../A2/index.html">
-          <li>Assignment 2: HTML</li>
-        </a>
-        <b>
-          <li>Assignment 3: CSS (Current)</li>
-        </b>
-      </ul>
-    </section>
+    <div id='main'>
+      <div id="leftMain">
+        <section id='indexLeft01' class='block' style='font-size: 0px;padding:0px;background:none'>
+          <img src='images/picture.jpg' width="100%" />
+          <style>
+            img {
+              border-radius: 5px;
+            }
+          </style>
+        </section>
+        <section id='indexLeft02' class='block'>
+          <p>
+          <ul>
+            <h3>Updates:</h3>
+            <li><b><u>2021/7/8</u></b> Site created</li>
+            <li><b><u>2021/7/13</u></b> HTML framework created</li>
+            <li><b><u>2021/7/20</u></b> Beautified pages with CSS; archive added</li>
+            <hr />
+            <b>Important note:</b> This website is created base on 2560*1600 resolution with 175% zoom.
+          </ul>
+          </p>
+        </section>
+      </div>
+      <div id='rightMain'>
+        <section id='index01' class='block'>
+          <p>
+            I'm David, a 16-year old student from Shanghai. I like to take photos and play baseball in my spare time. I also like to play video games and watch animes.
+            <br />
+            <br />
+            This website will be frequently updated as I learn more web design knowledge and more stuff will be posted in this area.
+          </p>
+        </section>
+      </div>
+    </div>
     <footer class='block'>
       <section id='socialMedia'>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -122,6 +140,8 @@
         </p>
       </section>
     </footer>
+  </div>
 </body>
+</head>
 
 </html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="description" content="Class site NYU">
+  <meta name="keywords" content="HTML, CSS, BOOTSTRAP">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/custom.css" type='text/css' />
+  <title>About: David's personal site</title>
+  <style>
+    .block {
+      padding: 30px;
+    }
+
+    #resumeTop p a:link {
+      color: red;
+      text-decoration: none;
+    }
+
+    #resumeTop p a:active {
+      color: pink;
+      text-decoration: none;
+    }
+
+    #resumeTop p a:hover {
+      -webkit-box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
+      -moz-box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
+      box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
+      border-radius: 0px;
+    }
+
+    #home {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #home a {
+      position: fixed;
+      border-radius: 5px;
+      padding: 5px;
+      background-color: rgba(255, 255, 255, .2);
+      top: 50%;
+      right: 30px;
+    }
+
+    #home a:hover {
+      -webkit-box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
+      -moz-box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
+      box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
+    }
+  </style>
+</head>
+
+<body>
+  <div id='home'>
+    <a href='../index.html'>
+      <img src='images/home.svg' height='27px' width='30px' />
+    </a>
+  </div>
+  <div id='wrap'>
+    <meta charset="utf-8">
+    <header id="aboutWelcome">
+      <h1>About me ヾ(≧▽≦*)o</h1>
+    </header>
+    <nav>
+      <ul>
+        <a href="index.html">
+          <li>
+            HOME
+          </li>
+        </a>
+        <a href="about.html">
+          <li>
+            ABOUT
+          </li>
+        </a>
+        <a href="contact.html">
+          <li>
+            CONTACT
+          </li>
+        </a>
+        <a href="archive.html">
+          <li>
+            ARCHIVE
+          </li>
+        </a>
+      </ul>
+    </nav>
+    <section id='aboutMain' class='block'>
+      <h1>Here is a resume.</h1>
+      <hr />
+      <br />
+      <table id='resume' border="1" align='center'>
+        <tr>
+          <td colspan='2' align='center' id='resumeTop'>
+            <h3>Zhen (David) Jiang</h3>
+            <p>
+              Shanghai, China |
+              <a href='mailto:zj2253@nyu.edu'>zj2253@nyu.edu</a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>Courses taking at school</td>
+          <td>
+            <p>
+              <u>Subjects</u>
+            <ul>
+              <li>IB Chinese A Literature SL</li>
+              <li>IB Mathematics: Analysis and Approaches HL</li>
+              <li>IB English B SL</li>
+              <li>IB Physics HL</li>
+              <li>IB Chemistry HL</li>
+              <li>IB Economics SL</li>
+            </ul>
+            </p>
+            <p>
+              <u>Core Courses</u>
+            <ul>
+              <li>Theory of Knowledge</li>
+              <li>Creativity, Activity and Service</li>
+              <li>Extended Essay</li>
+            </ul>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>School Activities</td>
+          <td>
+            <p>
+            <ul>
+              <li>Odessy of the Mind</li>
+              <li>School Debate Club</li>
+              <li>Baseball Team</li>
+              <li>Guard of Honor</li>
+              <li>And more...</li>
+            </ul>
+            </p>
+          </td>
+        </tr>
+      </table>
+      <br />
+    </section>
+    <footer class='block' style='padding-left:10px;padding-right:10px;padding-top:0px;padding-bottom:0px'>
+      <section id='socialMedia'>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://space.bilibili.com/65963743/" target="_blank">
+          <img src='images/icon_bilibili-circle.svg' height="40px" />
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.youtube.com/channel/UC1bLcrTHb4Nlc6qz3j0URFQ" target="_blank">
+          <img src='images/icon_YouTube.svg' height="35px" />
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://github.com/djmtrlltc" target="_blank">
+          <img src='images/github.svg' height="40px" />
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.facebook.com/david.jiang.792303/" target="_blank">
+          <img src='images/facebook.svg' height="35px" />
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://steamcommunity.com/id/djmtrlltc/" target="_blank">
+          <img src='images/steam.svg' height="33px" />
+        </a>
+      </section>
+      <section id='bottomRight'>
+        <p>
+          <b>This site is a web design course project.</b> &copy; Zhen (David) Jiang
+          <br />
+          Source code is avalible
+          <a href='https://github.com/djmtrlltc/personalSite' target='_blank'>
+            here
+            <br />
+          </a>
+          Background image source
+          <a href='https://www.pixiv.net/artworks/90640803' target='_blank'>
+            here
+          </a>
+        </p>
+      </section>
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -6,7 +6,9 @@
   <meta name="keywords" content="HTML, CSS, BOOTSTRAP">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="css/custom.css" type='text/css' />
-  <title>Contact: David's Personal site </title>
+  <title>
+    David's personal website
+  </title>
   <style>
     #home {
       display: flex;
@@ -34,14 +36,10 @@
 <body>
   <div id='home'>
     <a href='../index.html'>
-      <img src='../images/home.svg' height='27px' width='30px' />
+      <img src='images/home.svg' height='27px' width='30px' />
     </a>
   </div>
-  <div id='wrap'>
-    <meta charset="utf-8">
-    <header id="contactWelcome">
-      <h1>Feel free to contact me ヾ(≧▽≦*)o</h1>
-    </header>
+  <div id="wrap">
     <nav>
       <ul>
         <a href="index.html">
@@ -66,51 +64,51 @@
         </a>
       </ul>
     </nav>
-    <div id='mainContact'>
-      <section id='contactLeft'>
-        <section id='eMail' class='block'>
-          <form name='sendmail' action='mailto:zj2253@nyu.edu' target="_blank">
-            <input name='subject' id='emailSubject' class='ins' type='text' value='' placeholder="subject">
-            <input type="submit" id='submitBtn' class='btn' value="Submit e-mail (client required)" />
-            <input type="reset" id='resetBtn' class='btn' value="Clear" />
-            <br />
-            <textarea id='emailBody' class='ins' cols="54" rows="28" id="body" name='body' placeholder="body"></textarea>
-          </form>
+    <header charset="utf-8" id="introWelcome">
+      <h1>Hi! Welcome to David's Personal Site ヾ(≧▽≦*)o</h1>
+    </header>
+    <div id='main'>
+      <div id="leftMain">
+        <section id='indexLeft01' class='block' style='font-size: 0px;padding:0px;background:none'>
+          <img src='images/umr.gif' width="100%" />
+          <style>
+            img {
+              border-radius: 5px;
+            }
+          </style>
         </section>
-      </section>
-      <section id='contactRight'>
-        <section id='contactRightTop' class='block'>
-          <p>You can contact me by this form (mail client required) or by any of the listed apps.</p>
-        </section>
-        <section id='contact' class='block'>
+        <section id='indexLeft02' class='block'>
           <p>
-            <a href='tel: +8615802140360' target="_blank">
-              <img src='images/phone.svg' height='15px' width='15px' />&nbsp;&nbsp;+8615802140360
-            </a>
-            <br />
-            <a href='https://im.qq.com/index' target='_blank'>
-              <img src='images/QQ.svg' height='20px' width='20px' />&nbsp;&nbsp;877979194
-            </a>
-            <br />
-            <a href='https://www.wechat.com/' target='_blank'>
-              <img src='images/WeChat.svg' height='20px' width='20px' />&nbsp;&nbsp;15802140360
-            </a>
-            <br />
-            <a href='https://discord.com/' target='_blank'>
-              <img src='images/discord.svg' height='18px' width='18px' />&nbsp;&nbsp;djmtrlltc#9494
-            </a>
-            <br>
-            <a href='https://t.me/djmtrlltc' target='_blank'>
-              <img src='images/telegram.svg' height='18px' width='18px' />&nbsp;&nbsp;djmtrlltc
-            </a>
+          <ul>
+            <h3>Updates:</h3>
+            <li><b><u>2021/7/8</u></b> Site created</li>
+            <li><b><u>2021/7/13</u></b> HTML Framework Created</li>
+            <li><b><u>2021/7/20</u></b> Beautified pages with html; archive added</li>
+            <li><b><u>2021/7/27</u></b> New images added</li>
+            <hr />
+            <b>Important note:</b> This website is created base on 2560*1600 resolution with 175% zoom.
+          </ul>
           </p>
         </section>
-        <section id='contactMap' class='block' style='padding:0px;margin:0px;font-size:0;'>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13641.476478198076!2d121.60260777265553!3d31.265883543228487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35b275e5fd448527%3A0xd492e3f7a8f05c09!2sJinqiao%2C%20Pudong%2C%20Shanghai%2C%20China!5e0!3m2!1sen!2s!4v1626169705671!5m2!1sen!2s"
-            width="100%" height='200px' style="border-radius:5px; border:0" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div id='rightMain'>
+        <section id='index01' class='block'>
+          <p>
+            I'm David, a 16-year old student from Shanghai. I like to take photos and play baseball in my spare time. I also like to play video games and watch animes.
+            <br />
+            <br />
+            This website will be frequently updated as I learn more web design knowledge and more stuff will be posted in this area.
+          </p>
         </section>
-      </section>
+        <section id='index02' class='block' style='font-size: 0px;padding:0px;background:none'>
+          <img src='images/myPS.jpg' width="100%" />
+          <style>
+            img {
+              border-radius: 5px;
+            }
+          </style>
+        </section>
+      </div>
     </div>
     <footer class='block'>
       <section id='socialMedia'>
@@ -153,5 +151,6 @@
     </footer>
   </div>
 </body>
+</head>
 
 </html>

@@ -1,0 +1,61 @@
+  @font-face {
+    font-family: HeaderFont;
+    src: url(../mySite/fonts/HyFMoonlight-2.ttf);
+  }
+
+  html {
+    background-image: url(../mySite/images/background.jpg);
+    /* https://www.pixiv.net/artworks/90640803 <-- background image source */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+
+  #wrap {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .block {
+    display: flex;
+    /* border: solid 1px; */
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: HeaderFont;
+    font-size: 15pt;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20pt;
+    -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+    transition: width 1s, height 1s, transform 1s;
+  }
+
+  #interest {
+    background-color: pink;
+  }
+
+  #personal {
+    background-color: cyan;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .block:hover {
+    width: 250px;
+    height: 250px;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
