@@ -40,6 +40,7 @@ header h1 {
   margin: 0px;
   color: red;
   text-shadow: 5px 5px 5px rgb(224, 158, 212);
+  -webkit-text-shadow: 5px 5px 5px rgb(224, 158, 212);
 }
 
 #mainNav {
