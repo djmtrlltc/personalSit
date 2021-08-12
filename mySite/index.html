@@ -6,6 +6,7 @@
   <meta name="keywords" content="HTML, CSS, BOOTSTRAP">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="css/custom.css" type='text/css' />
+  <meta name="viewport" content="initial-scale=1">
   <title>
     David's personal website
   </title>
@@ -34,13 +35,17 @@
 </head>
 
 <body>
+  <div id='mouse'><img src='images/mouse.png' width=40px; height=40px;/ ></div>
   <div id='home'>
-    <a href='../index.html'>
+    <a href='../index.html' class=>
       <img src='images/home.svg' height='27px' width='30px' />
     </a>
   </div>
   <div id="wrap">
-    <nav>
+    <header charset="utf-8" id="introWelcome" class='bar'>
+      <h1>Hi! Welcome to David's Personal Site ヾ(≧▽≦*)o</h1>
+    </header>
+    <nav class='bar'>
       <ul>
         <a href="index.html">
           <li>
@@ -64,9 +69,6 @@
         </a>
       </ul>
     </nav>
-    <header charset="utf-8" id="introWelcome">
-      <h1>Hi! Welcome to David's Personal Site ヾ(≧▽≦*)o</h1>
-    </header>
     <div id='main'>
       <div id="leftMain">
         <section id='indexLeft01' class='block' style='font-size: 0px;padding:0px;background:none'>
@@ -144,13 +146,14 @@
           </a>
           Background image source
           <a href='https://www.pixiv.net/artworks/90640803' target='_blank'>
-            here
+            <span>here</span>
           </a>
         </p>
       </section>
     </footer>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/custom.js"></script>
 </body>
-</head>
 
 </html>

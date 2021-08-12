@@ -6,6 +6,7 @@
   <meta name="keywords" content="HTML, CSS, BOOTSTRAP">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="css/custom.css" type='text/css' />
+  <meta name="viewport" content="initial-scale=1">
   <title>Contact: David's Personal site </title>
   <style>
     #home {
@@ -32,6 +33,7 @@
 </head>
 
 <body>
+  <div id='mouse'><img src='images/mouse.png' width=40px; height=40px;/ ></div>
   <div id='home'>
     <a href='../index.html'>
       <img src='images/home.svg' height='27px' width='30px' />
@@ -39,10 +41,10 @@
   </div>
   <div id='wrap'>
     <meta charset="utf-8">
-    <header id="contactWelcome">
+    <header id="contactWelcome" class='bar'>
       <h1>Feel free to contact me ヾ(≧▽≦*)o</h1>
     </header>
-    <nav>
+    <nav class='bar'>
       <ul>
         <a href="index.html">
           <li>
@@ -84,24 +86,24 @@
         </section>
         <section id='contact' class='block'>
           <p>
-            <a href='tel: +8615802140360' target="_blank">
-              <img src='images/phone.svg' height='15px' width='15px' />&nbsp;&nbsp;+8615802140360
+            <a href='tel: +8615802140360' target="_blank" id='tel'>
+              <img src='images/phone.svg' height='15px' width='15px' />&nbsp;&nbsp; Phone number
             </a>
             <br />
-            <a href='https://im.qq.com/index' target='_blank'>
-              <img src='images/QQ.svg' height='20px' width='20px' />&nbsp;&nbsp;877979194
+            <a href='https://im.qq.com/index' target='_blank' id='qq'>
+              <img src='images/QQ.svg' height='20px' width='20px' />&nbsp;&nbsp; QQ
             </a>
             <br />
-            <a href='https://www.wechat.com/' target='_blank'>
-              <img src='images/WeChat.svg' height='20px' width='20px' />&nbsp;&nbsp;15802140360
+            <a href='https://www.wechat.com/' target='_blank' id='wc'>
+              <img src='images/WeChat.svg' height='20px' width='20px' />&nbsp;&nbsp; WeChat
             </a>
             <br />
-            <a href='https://discord.com/' target='_blank'>
-              <img src='images/discord.svg' height='18px' width='18px' />&nbsp;&nbsp;djmtrlltc#9494
+            <a href='https://discord.com/' target='_blank' id='dc'>
+              <img src='images/discord.svg' height='18px' width='18px' />&nbsp;&nbsp; Discord
             </a>
             <br>
-            <a href='https://t.me/djmtrlltc' target='_blank'>
-              <img src='images/telegram.svg' height='18px' width='18px' />&nbsp;&nbsp;djmtrlltc
+            <a href='https://t.me/djmtrlltc' target='_blank' id='tg'>
+              <img src='images/telegram.svg' height='18px' width='18px' />&nbsp;&nbsp; Telegram
             </a>
           </p>
         </section>
@@ -152,6 +154,8 @@
       </section>
     </footer>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/custom.js"></script>
 </body>
 
 </html>

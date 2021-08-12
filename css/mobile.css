@@ -49,6 +49,10 @@ html {
   background-color: cyan;
 }
 
+#cause{
+  background-color: lightgreen;
+}
+
 a {
   text-decoration: none;
   color: black;

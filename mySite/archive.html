@@ -7,6 +7,7 @@
   <meta name="keywords" content="HTML, CSS, BOOTSTRAP">
   <link rel="stylesheet" href="css/custom.css" type='text/css' />
   <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <meta name="viewport" content="initial-scale=1">
   <title>Archive: David's Personal Site</title>
   <style>
     #home {
@@ -33,16 +34,17 @@
 </head>
 
 <body>
+  <div id='mouse'><img src='images/mouse.png' width=40px; height=40px;/ ></div>
   <div id='home'>
     <a href='../index.html'>
       <img src='images/home.svg' height='27px' width='30px' />
     </a>
   </div>
   <div id="wrap">
-    <header charset="utf-8" id="introWelcome">
+    <header charset="utf-8" id="introWelcome" class='bar'>
       <h1>Here are the archives ヾ(≧▽≦*)o</h1>
     </header>
-    <nav>
+    <nav class='bar'>
       <ul>
         <a href="index.html">
           <li>
@@ -83,6 +85,9 @@
         </a>
         <b>
           <li>Assignment 4: Photoshop (Current)</li>
+        </b>
+        <b>
+          <li>Assignment 7: jQuery (Current)</li>
         </b>
       </ul>
     </section>
@@ -125,6 +130,8 @@
         </p>
       </section>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>

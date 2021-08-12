@@ -6,6 +6,7 @@
   <meta name="keywords" content="HTML, CSS, BOOTSTRAP">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="css/custom.css" type='text/css' />
+  <meta name="viewport" content="initial-scale=1">
   <title>About: David's personal site</title>
   <style>
     .block {
@@ -53,6 +54,7 @@
 </head>
 
 <body>
+  <div id='mouse'><img src='images/mouse.png' width=40px; height=40px;/ ></div>
   <div id='home'>
     <a href='../index.html'>
       <img src='images/home.svg' height='27px' width='30px' />
@@ -60,10 +62,10 @@
   </div>
   <div id='wrap'>
     <meta charset="utf-8">
-    <header id="aboutWelcome">
+    <header id="aboutWelcome" class='bar'>
       <h1>About me ヾ(≧▽≦*)o</h1>
     </header>
-    <nav>
+    <nav class='bar'>
       <ul>
         <a href="index.html">
           <li>
@@ -181,6 +183,8 @@
         </p>
       </section>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
   </div>
 </body>
 

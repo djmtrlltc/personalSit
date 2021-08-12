@@ -15,6 +15,10 @@ html {
   -o-background-size: cover;
 }
 
+*{
+  cursor: none;
+}
+
 #wrap {
   /* border : solid 1px black; */
   width: 70%;
@@ -30,7 +34,25 @@ html {
   background-color: rgba(255, 255, 255, .2);
 }
 
+#mouse {
+  display:none;
+  height:20px;
+  width:20px;
+  /* border: solid 1px black; */
+  position:absolute;
+  top:40px;
+  left:40px;
+  border-radius:50%;
+  background: transparent;
+  z-index:99;
+}
+
+#mouse img{
+  background: transparent;
+  transform: rotateY(180deg);
+}
 header {
+  display:none;
   padding: 0px;
   border-radius: 5px;
   margin-bottom: 30px;
@@ -47,6 +69,7 @@ header h1 {
 }
 
 nav {
+  display:none;
   border: solid 0px black;
   background-color: rgba(255, 255, 255, .8);
   border-radius: 5px;
@@ -111,6 +134,7 @@ nav ul a:visited {
 }
 
 .block {
+  display:none;
   border: solid 0px black;
   background-color: rgba(255, 255, 255, .8);
   -webkit-box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
@@ -162,6 +186,14 @@ footer section {
   align-items: center;
   padding-right: 30px;
   padding-left: 30px;
+}
+
+#socialMedia a:hover{
+  padding:5px;
+  -webkit-box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
+  -moz-box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
+  box-shadow: 2px 1px 26px 0px rgba(50, 50, 50, 0.82);
+  border-radius: 5px;
 }
 
 #bottomRight a:link {
